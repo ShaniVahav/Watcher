@@ -1,0 +1,47 @@
+/* home.css */
+
+.home {
+    background: linear-gradient(15deg, #fffafa 0%, #fffafa 4%, #fffafa 21%, #1ebe73 72%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 100vh;
+}
+
+.title {
+    align-items: start;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.data {
+    width: 300px;
+    margin-bottom: 10px; /* Optional: Add margin at the bottom for spacing between textarea and button */
+    margin-top: 20px; /* Add margin at the top for spacing below the label */
+}
+    
+
+.btn {
+    background-color: #b9cfc8;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px; /* Add margin to the top for vertical spacing */
+}
+
+.bad-message {
+    color: red;
+}
+
+.ok-message {
+    color: green;
+}
